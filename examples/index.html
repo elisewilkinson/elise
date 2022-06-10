@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>HOME</title>
+<script type="text/javascript" src="../colorpicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="../themes.css" />
+    <style type="text/css">
+    body {
+		
+		    max-width: 650px;
+            margin: auto;
+            background: cyan;
+            padding: 10px;
+
+}
+    </style>
+    <link href="../singlePageTemplate.css" rel="stylesheet" type="text/css" media="(max-width:500px)">
+</head>
+  <body leftmargin="30" marginwidth="30">
+  <p> <img src="files/bluebanner.png" alt="" width="658" height="351" id="mainbluebanner">&nbsp;</p>
+ <audio controls>
+  <source src="https://docs.google.com/uc?export=download&id=1sCRNL5eLoem8j9EgoPUqmOk6gjqfz_X2" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+  <p>&nbsp;&nbsp;</p>
+  <audio controls>
+  <source src="https://docs.google.com/uc?export=download&id=1Qz7SIM_pqRq0MNfEi_6_wMkCalg0VVn3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+  <p>&nbsp;</p>
+ <audio controls>
+  <source src="https://docs.google.com/uc?export=download&id=1wje_ALtrO4PzmaVwv7gAdwkQ5_oFRMFM" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio> 
+  <p>&nbsp;</p>
+      <p>&nbsp; <img src="files/Untitled.gif" alt="" width="23" height="17" id="eqlogogif"></p>
+<div id="color-picker" class="cp-default"></div>
+
+  <script type="text/javascript">
+
+      ColorPicker(
+
+        document.getElementById('color-picker'),
+
+        function(hex, hsv, rgb) {
+          console.log(hsv.h, hsv.s, hsv.v);         // [0-359], [0-1], [0-1]
+          console.log(rgb.r, rgb.g, rgb.b);         // [0-255], [0-255], [0-255]
+          document.body.style.backgroundColor = hex;        // #HEX
+        });
+
+    </script>
+	   <div class="Center"></div>
+</body>
+</html>
