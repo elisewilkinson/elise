@@ -1,0 +1,38 @@
+﻿body{
+    background: #C6EAF0;
+    font-family: 'Short Stack';
+}
+
+a.iMake, a.iHome, a.iSearch {
+    color:#222;
+}
+
+#gameWrapper, #gameCanvas, #underCanvas, #gameLoading {
+    display:block;
+    margin:0 auto;
+    width:960px;
+}
+section {
+    padding-top: 40px;
+}
+#gameLoading {
+	font-size: 22px;
+}
+canvas {
+	background: #999;
+}
+#gameWrapper {
+    position:relative;
+}
+.shareBtns.vert {
+    width:50px;
+    margin:0;
+    padding:0;
+}
+
+#howtoplay {
+    margin: 40px 80px;
+    background: #FFF;
+    border: 1px solid #222;
+    padding: 40px;
+}
