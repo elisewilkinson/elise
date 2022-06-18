@@ -1,7 +1,7 @@
 body {
-  background: #00f91a;
+  background: #1f232a;
   font-family: "Proxima Nova", sans-serif;
-  color: #DBF904;
+  color: #8b949a;
   letter-spacing: 0.05em;
   transition: background 0.5s ease;
 }
@@ -11,10 +11,10 @@ body {
   border-radius: 8px;
   border: 2px solid #364347;
   box-shadow: 0 4px 12px rgba(0, 0, 0, .4);
-  position: bottom;
-  top: 120%;
-  left: 120%;
-  transform: translate(0%, -0%);
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .panel-row {
   position: relative;
