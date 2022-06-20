@@ -257,3 +257,14 @@ window.addEventListener('resize', function() {
 });
 
 new ColorPicker();
+
+
+var sound = document.querySelector('audio');
+var buttons = document.querySelectorAll('button');
+
+[].forEach.call(buttons, function(button) {
+  button.onmouseover = function() {
+    sound.currentTime = 0;
+    sound.play();
+  };
+});
