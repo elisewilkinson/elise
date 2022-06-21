@@ -45,6 +45,12 @@ function makeSound(key)
             default:
                 console.log("this.innerHTML");
                 break;
+             case "i":
+                var audio = new Audio("sounds/kick-bass.mp3");
+                break;
+            default:
+                console.log("this.innerHTML");
+                break;
         }
         audio.play();
 }
