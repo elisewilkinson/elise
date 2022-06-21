@@ -42,10 +42,10 @@ function makeSound(key)
             case "s":
                 var audio = new Audio("sounds/kick-bass.mp3");
                 break;
-	    case "o":
-                var audio = new Audio("sounds/soundo.mp3");
+	    case "el":
+                var audio = new Audio("sounds/soundx.mp3");
                 break;
-	    case "y":
+	    case "is":
                 var audio = new Audio("sounds/soundy.mp3");
                 break;
             default:
