@@ -27,29 +27,26 @@ function makeSound(key)
             case "i":
                 var audio = new Audio("sounds/tom-2.mp3");
                 break;
-            case "s":
+            case "l":
                 var audio = new Audio("sounds/tom-3.mp3");
                 break;
-            case "d":
+            case "k":
                 var audio = new Audio("sounds/tom-4.mp3");
                 break;
-            case "j":
+            case "x":
                 var audio = new Audio("sounds/snare.mp3");
                 break;
-            case "k":
+            case "n":
                 var audio = new Audio("sounds/crash.mp3");
                 break;
-            case "l":
+            case "s":
                 var audio = new Audio("sounds/kick-bass.mp3");
                 break;
 	    case "o":
-                var audio = new Audio("sounds/kick-bass2.mp3");
+                var audio = new Audio("sounds/soundo.mp3");
                 break;
-	    case "n":
-                var audio = new Audio("sounds/kick-bass3.mp3");
-                break;
-	    case "o":
-                var audio = new Audio("sounds/kick-bass4.mp3");
+	    case "y":
+                var audio = new Audio("sounds/soundy.mp3");
                 break;
             default:
                 console.log("this.innerHTML");
