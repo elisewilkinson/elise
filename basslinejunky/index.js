@@ -42,22 +42,18 @@ function makeSound(key)
             case "l":
                 var audio = new Audio("sounds/kick-bass.mp3");
                 break;
-            default:
-                console.log("this.innerHTML");
-                break;
-			case "i":
+		    case "i":
                 var audio = new Audio("sounds/kick-bass.mp3");
-                break;
-            default:
-                console.log("this.innerHTML");
                 break;
 			case "n":
                 var audio = new Audio("sounds/kick-bass.mp3");
                 break;
+		    case "o":
+                var audio = new Audio("sounds/kick-bass.mp3");
+                break;
             default:
                 console.log("this.innerHTML");
                 break;
-				
         }
         audio.play();
 }
