@@ -1,0 +1,129 @@
+</head>
+  <body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>HOME</title>
+<script type="text/javascript" src="colorpicker.js"></script>
+<script src="Scripts/swfobject_modified.js"></script>
+<link rel="stylesheet" href="themes.css">
+    <style type="text/css">
+    body {
+		
+		    max-width: 650px;
+            margin: auto;
+            background: cyan;
+            padding: 10px;
+
+}
+    </style>
+<link href="file:///C|/Users/User/Documents/GitHub/singlePageTemplate.css" rel="stylesheet" type="text/css" media="(max-width:500px)">
+</head>
+<body>
+<p>&nbsp;</p>
+<table width="600" border="4">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr bgcolor="#000000" style="color: rgba(0,0,0,1)">
+      <td><img src="files/bluebanner.png" width="658" height="351" alt=""/></td>
+    </tr>
+    <tr>
+      <td><object id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="400">
+        <param name="movie" value="files/HangmanWilk.2swf.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="swfversion" value="10.3.0.0" />
+        <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+        <param name="expressinstall" value="Scripts/expressInstall.swf" />
+        <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="files/HangmanWilk.2swf.swf" width="640" height="400">
+          <!--<![endif]-->
+          <param name="quality" value="high" />
+          <param name="wmode" value="opaque" />
+          <param name="swfversion" value="10.3.0.0" />
+          <param name="expressinstall" value="Scripts/expressInstall.swf" />
+          <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+          <div>
+            <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+    		<p align="center">&nbsp; </p>
+ <audio controls>
+  <source src="https://docs.google.com/uc?export=download&id=1sCRNL5eLoem8j9EgoPUqmOk6gjqfz_X2" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<p>&nbsp;&nbsp;</p>
+  <audio controls>
+  <source src="https://docs.google.com/uc?export=download&id=1Qz7SIM_pqRq0MNfEi_6_wMkCalg0VVn3" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio>
+  <p>&nbsp;</p>
+ <audio controls>
+  <source src="https://docs.google.com/uc?export=download&id=1wje_ALtrO4PzmaVwv7gAdwkQ5_oFRMFM" type="audio/mpeg"> 
+Your browser does not support the audio element.
+</audio> 
+  <p>&nbsp;</p>
+      <p>&nbsp; <img src="files/Untitled.gif" alt="" width="23" height="17" id="eqlogogif"></p>
+	
+<div id="color-picker" class="cp-default"></div>
+
+  <p>
+    <script type="text/javascript">
+
+      ColorPicker(
+
+        document.getElementById('color-picker'),
+
+        function(hex, hsv, rgb) {
+          console.log(hsv.h, hsv.s, hsv.v);         // [0-359], [0-1], [0-1]
+          console.log(rgb.r, rgb.g, rgb.b);         // [0-255], [0-255], [0-255]
+          document.body.style.backgroundColor = hex;        // #HEX
+        });
+		
+		
+
+    </script>
+	  
+  </p>
+<div class="Center"></div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID2");
+</script>
+<div>   </div>
+  <div class="player">
+      <video controls>
+        <source src="video/sintel-short.mp4" type="video/mp4">
+        <source src="video/sintel-short.webm" type="video/webm">
+        <!-- fallback content here -->
+      </video>
+      <div class="controls">
+        <button class="play" data-icon="P" aria-label="play pause toggle"></button>
+        <button class="stop" data-icon="S" aria-label="stop"></button>
+        <div class="timer"><div></div><span aria-label="timer">00:00</span></div>
+        <button class="rwd" data-icon="B" aria-label="rewind"></button>
+        <button class="fwd" data-icon="F" aria-label="fast forward"></button>
+      </div>
+    </div>
+    <p>Sintel &copy; copyright Blender Foundation | <a href="http://www.sintel.org">www.sintel.org</a>.</p>
+    <script src="custom-player.js"></script>
+
+</body>
+</html>
