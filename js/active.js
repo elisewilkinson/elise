@@ -4,7 +4,7 @@
     if ($.fn.owlCarousel) {
         // Hero Slider Active Code
         $(".caviar-hero-slides").owlCarousel({
-            items: 1,
+            items: 5,
             loop: true,
             autoplay: true,
             smartSpeed: 1500,
