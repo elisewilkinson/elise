@@ -10,6 +10,7 @@
             smartSpeed: 1500,
             margin: 0,
             nav: true,
+            navText: ['', '<i class="fa fa-arrow-right" aria-hidden="true"></i>']
             responsive: {
                 0: {
                     items: 1
@@ -22,7 +23,7 @@
                 }
             }
         })
-            navText: ['', '<i class="fa fa-arrow-right" aria-hidden="true"></i>']
+
         })
         var wel_slides = $('.caviar-hero-slides');
         wel_slides.owlCarousel();
