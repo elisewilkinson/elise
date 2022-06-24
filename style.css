@@ -18,7 +18,7 @@
 @import 'css/others/owl.carousel.min.css';
 @import 'css/others/font-awesome.min.css';
 @import 'css/others/pe-icon-7-stroke.css';
-@import 'css/others/cpstyle.css';
+
 /* Base CSS */
 
 * {
@@ -1285,3 +1285,7 @@ blockquote img {
     margin-bottom: 0;
     font-weight: 600;
 }
+
+.animation_container {
+	margin-right: 40px;
+}	
