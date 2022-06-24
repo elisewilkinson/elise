@@ -11,17 +11,6 @@
             margin: 0,
             nav: true,
             navText: ['', '<i class="fa fa-arrow-right" aria-hidden="true"></i>']
-            responsive: {
-                0: {
-                    items: 1
-                },
-                576: {
-                    items: 2
-                },
-                992: {
-                    items: 2
-                }
-            }
         })
 
         })
