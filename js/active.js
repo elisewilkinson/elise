@@ -10,6 +10,18 @@
             smartSpeed: 1500,
             margin: 0,
             nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 2
+                },
+                992: {
+                    items: 2
+                }
+            }
+        })
             navText: ['', '<i class="fa fa-arrow-right" aria-hidden="true"></i>']
         })
         var wel_slides = $('.caviar-hero-slides');
