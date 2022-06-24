@@ -12,8 +12,6 @@
             nav: true,
             navText: ['', '<i class="fa fa-arrow-right" aria-hidden="true"></i>']
         })
-
-        })
         var wel_slides = $('.caviar-hero-slides');
         wel_slides.owlCarousel();
         wel_slides.on('translate.owl.carousel', function (event) {
