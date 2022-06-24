@@ -6,11 +6,11 @@ http://www.tooplate.com/view/2054-bubble-show
 body {
 	margin: 0;
 	padding: 0;
-	color: #999;
+	color: #c1c1c1 ;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 13px;
 	line-height: 1.5em; 
-	background-color: #282828;
+	background-color: #c1c1c1 ;
 	background-position: top;
 	background-repeat: repeat-x
 }
@@ -22,14 +22,14 @@ body {
 a, a:link, a:visited { color: #ffffff; font-weight: normal; ; }
 a:hover { text-decoration: underline }
 
-a.more { display: block; width: 68px; height: 21px; text-align: center; text-decoration: none; background: url(../images/tooplate_more.png); font-weight: 700; color: #000 }
+a.more { display: block; width: 68px; height: 21px; text-align: center; text-decoration: none; background: url(../images/tooplate_more.png); font-weight: 700; color: #c1c1c1  }
 
 p { margin: 0 0 10px 0; padding: 0; }
 img { border: none }
 blockquote { font-style: italic; margin: 0 0 20px 10px;}
 cite { font-weight: bold; color:#fff; }
 cite a, cite a:link, cite a:visited  { font-weight: bold; color:#fff; }
-cite span { font-weight: 400; color: #999; }
+cite span { font-weight: 400; color: #c1c1c1 ; }
 em { color: #fff; }
 
 h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal;  font-family: Georgia, "Times New Roman", Times, serif }
@@ -67,7 +67,7 @@ img.image_frame { padding-bottom: 15px; background:url(../images/image_frame.png
 
 #tooplate_wrapper_sp { 
 	width: 100%;
-	background: url(../images/tooplate_header_sp.jpg) center top no-repeat
+	background: url(../images/tooplate_headepg) center top no-repeat
 }
 
 #tooplate_header_fp {
@@ -93,7 +93,7 @@ img.image_frame { padding-bottom: 15px; background:url(../images/image_frame.png
 
 #site_title { width: 270px; height: 60px; margin: 0 auto; padding: 35px 0; }
 #site_title h1 { margin: 0; padding: 0; }
-#site_title h1 a { display: block; width: 270px; height: 60px; color: #fff; text-indent: -10000px; background: url(../images/tooplate_logo.png)  no-repeat }
+#site_title h1 a { display: block; width: 270px; height: 60px; color: #fff; text-indent: -10000px; background: }
 
 #tooplate_slider {
 	clear: both;
@@ -161,8 +161,8 @@ img.image_frame { padding-bottom: 15px; background:url(../images/image_frame.png
 }
 
 .comments li { margin-bottom: 10px; list-style:none; }
-.comments li .commentbox1 { border: 1px solid #444;  background: #333; }
-.comments li .commentbox2 { border: 1px solid #555;  background: #444; }
+.comments li .commentbox1 { border: 1px solid #444;  background: #c1c1c1 ; }
+.comments li .commentbox2 { border: 1px solid #555;  background: #c1c1c1 ; }
 .comments li .comment_box { clear: both; width:100%; padding: 15px;  }
 .comment_box .gravatar { float: left; width: 50px; margin-right: 15px; background: #fff; }
 .comment_box .gravatar img { margin: 0; width: 50px; height: 50px; }
@@ -181,20 +181,20 @@ img.image_frame { padding-bottom: 15px; background:url(../images/image_frame.png
 
 #comment_form h3 {
 	font-size: 20px;
-	border-bottom: 1px dotted #666;
+	border-bottom: 1px dotted #c1c1c1 ;
 	margin-bottom: 15px;
 	padding-bottom: 10px;
 }
 
 #comment_form form {
 	padding: 20px;
-	background-color: #333;
+	background-color: #c1c1c1 ;
 	border: 1px solid #000;
 }
 
 #comment_form textarea {
-	color: #999;
-	background:#222 none repeat fixed 0 0;
+	color: #c1c1c1 ;
+	background:#c1c1c1  none repeat fixed 0 0;
 	border: 1px solid #000;
 	display:block;
 	font-size:1.1em;
@@ -212,7 +212,7 @@ img.image_frame { padding-bottom: 15px; background:url(../images/image_frame.png
 }
 
 #comment_form form input {
-	color: #999;
+	color: #c1c1c1 ;
 	margin-top: 5px;
 	width: 200px;
 	background:#222 none repeat fixed 0 0;
@@ -222,8 +222,8 @@ img.image_frame { padding-bottom: 15px; background:url(../images/image_frame.png
 
 #comment_form .submit_btn {
 	width: 80px;
-	background: #212121;
-	border: 1px solid #000;
+	background: #c1c1c1 ;
+	border: 1px solid #c1c1c1 ;
 	color: #fff;
 }
 
@@ -234,34 +234,34 @@ img.image_frame { padding-bottom: 15px; background:url(../images/image_frame.png
 .pagging { margin: 0 0 20px; padding: 0 }
 .pagging ul { margin: 0; padding: 0; list-style: none }
 .pagging ul li { margin: 0; padding: 0; display: inline }
-.pagging ul li a { float: left; display: block; color: #fff; text-decoration: none; margin-right: 5px; padding: 5px 10px; background-color: #333; border: 1px solid #000; }
-.pagging ul li a:hover { background: #000; color: #333; color: #fff  }
+.pagging ul li a { float: left; display: block; color: #fff; text-decoration: none; margin-right: 5px; padding: 5px 10px; background-color: #c1c1c1 ; border: 1px solid #000; }
+.pagging ul li a:hover { background: #000; color: #c1c1c1 ; color: #fff  }
 
 #contact_form { padding: 0; width: 500px }
 #contact_form h4, #contact_form, h6 { font-family: Tahoma, Geneva, sans-serif }
 #contact_form form { margin: 0px; padding: 0px; }
-#contact_form form .input_field { width: 300px; padding: 5px; color: #fff; border: 1px solid #000;  background: #212121; }
+#contact_form form .input_field { width: 300px; padding: 5px; color: #fff; border: 1px solid #000;  background: #c1c1c1 ; }
 #contact_form form label { display: block; width: 100px; margin-right: 10px; margin-bottom: 5px; font-size: 13px }
-#contact_form form textarea { width: 488px; height: 200px; padding: 5px; color: #fff; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; border: 1px solid #000;  background: #212121; }
-#contact_form form .submit_btn { display: block; padding: 3px 8px; text-align: center; text-decoration: none; font-weight: bold; background: #212121;  color: #fff; border: 1px solid #000; font-size:13px; cursor: pointer }
+#contact_form form textarea { width: 488px; height: 200px; padding: 5px; color: #fff; font-family: Tahoma, Geneva, sans-serif; font-size: 12px; border: 1px solid #000;  background: #c1c1c1  ; }
+#contact_form form .submit_btn { display: block; padding: 3px 8px; text-align: center; text-decoration: none; font-weight: bold; background: #c1c1c1 ;  color: #fff; border: 1px solid #000; font-size:13px; cursor: pointer }
 
 /* footer */
 #tooplate_footer_wrapper {
 	clear: both;
 	width: 100%;
-	background: #212121 url(../images/tooplate_footer.png) top repeat-x
+	background: #c1c1c1  url(../images/tooplate_footer.png) top repeat-x
 
 }
 
 #tooplate_footer {
 	clear: both;
 	width: 960px;
-	padding: 40px 10px 60px;	
+	padding: 20px 10px 20px;	
 	margin: 0 auto;
-	color: #666;
+	color: #c1c1c1 ;
 	text-align: center;
 }
 
 #tooplate_footer a { 
-	color: #666
+	color: #000000
 }

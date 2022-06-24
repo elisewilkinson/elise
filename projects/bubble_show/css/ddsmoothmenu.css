@@ -25,7 +25,7 @@
 	line-height: 40px;
 	margin: 0 1px 0 0;
 	font-size: 14px;
-	color: #ccc;	
+	color: #c1c1c1  ;	
 	text-align: center;
 	text-decoration: none;
 	font-weight: 400;
@@ -48,7 +48,7 @@ display: inline-block;
 	left: 0;
 	display: none; /*collapse all sub menus to begin with*/
 	visibility: hidden;
-	background: #1d1623;
+	background: #c1c1c1 ;
 }
 
 /*Sub level menu list items (undo style from Top level List Items)*/
