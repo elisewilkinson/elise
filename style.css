@@ -1286,6 +1286,12 @@ blockquote img {
     font-weight: 600;
 }
 
-.animation_container {
-	margin: auto;;
-}	
+	
+#animation_container {
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 960px; /* Need a specific value to work */
+}
